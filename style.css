@@ -18,14 +18,16 @@ main {
     background-repeat: repeat;
 }
 
+.info-text {
+    text-align: center;
+}
+
 .info-text h1 {
     margin: 0px 20px 20px 20px;
-    text-align: center;
 }
 
 .info-text p {
     margin: 0px 30px 40px 30px;
-    text-align: center;
 }
 
 .info-text h1,
@@ -118,10 +120,21 @@ input {
         display: flex;
     }
 
-/* .right-side-desktop-container {
-        
+    .right-side-desktop-container {
+        margin-right: 250px;
     }
 
-*/
+    .info-text {
+        margin: auto 200px auto 250px;
+        text-align:left;
+    }
 
+    .info-text h1 {
+        font-size: 2.5rem;
+        width: 75%;
+    }
+
+    .info-text p {
+        width: 100%;
+    }
 }
