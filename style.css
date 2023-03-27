@@ -121,11 +121,11 @@ input {
     }
 
     .right-side-desktop-container {
-        margin-right: 250px;
+        margin-right: 150px;
     }
 
     .info-text {
-        margin: auto 200px auto 250px;
+        margin: 135px 150px auto 230px;
         text-align:left;
     }
 
@@ -136,5 +136,22 @@ input {
 
     .info-text p {
         width: 100%;
+    }
+
+    .CTA-banner {
+        width: 475px;
+        height: 45px;
+    }
+
+    .inner-wrapper {
+        width: 475px;
+    }
+
+    input {
+        width: 430px;
+    }
+
+    .TOS-link-text {
+        margin: 10px auto 30px auto;
     }
 }
