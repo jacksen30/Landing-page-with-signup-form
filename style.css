@@ -67,7 +67,7 @@ main {
     overflow: hidden;
 }
 
-.signup-form-container {
+.signup-form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,6 +88,11 @@ input {
     height: 40px;
     font-size: 18.5px;
     font-weight: bold;
+}
+
+/* adds padding-left to the placeholder text within the input */
+input[type=text] {
+    padding-left: 5%;
 }
 
 .submit-btn {
@@ -118,6 +123,7 @@ input {
 
     main {
         display: flex;
+        background-image: url('images/bg-intro-desktop.png');
     }
 
     .right-side-desktop-container {
