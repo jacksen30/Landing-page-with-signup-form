@@ -58,7 +58,7 @@ main {
     margin: 11px 60px 15px 60px;
 }
 
-.inner-wrapper {
+.signup-section-wrapper {
     border-radius: 15px;
    /* border: 1px solid green; */
     background-color: white;
@@ -107,7 +107,6 @@ input[type=text] {
     text-align: center;
     width: 80%;
     margin: 8px auto 0px auto;
-    
     color: hsl(246, 25%, 77%);
     line-height: 20px;
 }
@@ -124,6 +123,7 @@ input[type=text] {
     main {
         display: flex;
         background-image: url('images/bg-intro-desktop.png');
+        justify-content: space-around;
     }
 
     .right-side-desktop-container {
@@ -131,17 +131,18 @@ input[type=text] {
     }
 
     .info-text {
-        margin: 135px 150px auto 230px;
+        margin: 135px 0 0 230px;
+        padding-left: 10px;
         text-align:left;
     }
 
     .info-text h1 {
         font-size: 2.5rem;
-        width: 75%;
+        width: 500px;
     }
 
     .info-text p {
-        width: 100%;
+        width: 550px;
     }
 
     .CTA-banner {
@@ -149,7 +150,7 @@ input[type=text] {
         height: 45px;
     }
 
-    .inner-wrapper {
+    .signup-section-wrapper {
         width: 475px;
     }
 
