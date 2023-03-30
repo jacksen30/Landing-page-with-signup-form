@@ -37,7 +37,6 @@ main {
     color: white;
 }
 
-
 .CTA-banner {
     width: 320px;
     height: 75px;
@@ -90,8 +89,10 @@ input {
     font-weight: bold;
 }
 
-/* adds padding-left to the placeholder text within the input */
-input[type=text] {
+/* adds padding-left to the placeholder text within the input types text, password & email */
+input[type=text],
+input[type=password],
+input[type=email] {
     padding-left: 5%;
 }
 
@@ -106,7 +107,7 @@ input[type=text] {
     font-size: 0.7rem;
     text-align: center;
     width: 80%;
-    margin: 8px auto 0px auto;
+    margin: 8px auto 15px auto;
     color: hsl(246, 25%, 77%);
     line-height: 20px;
 }
