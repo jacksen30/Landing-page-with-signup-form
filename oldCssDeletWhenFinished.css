@@ -7,7 +7,6 @@
 body {
     min-height: 100vh;
     display: flex;
-    background-image: url('images/bg-intro-mobile.png');
     align-items: center;
     justify-content: center;
     background-color: hsl(0, 100%, 74%);
@@ -15,10 +14,8 @@ body {
 }
 
 main {
-   /* background-image: url('images/bg-intro-mobile.png');
-    background-repeat: repeat; */
-    max-width: 70rem;
-    margin: 1rem;  /* This is what is giving the whole contents of the page margin, and making contents not be width of the screen */
+    background-image: url('images/bg-intro-mobile.png');
+    background-repeat: repeat;
 }
 
 .info-text {
@@ -42,8 +39,8 @@ main {
 
 
 .CTA-banner {
-  /*  width: 320px; */
-  /*  height: 75px; */
+    width: 320px;
+    height: 75px;
     background-color: hsl(248, 32%, 49%);
     border-radius: 10px;
     overflow: hidden;
@@ -62,7 +59,7 @@ main {
    /* border: 1px solid green; */
     background-color: white;
     margin: 0 auto 0 auto;
-   /* width: 320px; */
+    width: 320px;
     overflow: hidden;
 }
 
@@ -74,9 +71,8 @@ main {
 
 form {
     border-radius: 20px;
-   /* margin: 15px 25px 0px 25px; */
+    margin: 15px 25px 0px 25px;
     color: grey;
-    padding: 2rem;
 }
 
 input {
@@ -84,42 +80,36 @@ input {
     border-radius: 5px;
     color: hsl(249, 10%, 26%);
     margin: 10px auto 10px auto; /* auto margins not working ?? */
-    /* width: 280px; */
-    /* height: 40px; */
+    width: 280px;
+    height: 40px;
     font-size: 18.5px;
     font-weight: bold;
-    width: 100%;
-    padding: 1rem;
 }
 
 /* adds padding-left to the placeholder text within the input types text, password & email */
 input[type=text],
 input[type=password],
 input[type=email] {
-    /* padding-left: 5%; */
+    padding-left: 5%;
 }
 
 .submit-btn {
     border: none;
-    border-radius: 5px;
     background-color: hsla(154, 59%, 51%, 0.8);
     font-size: 20px;
     box-shadow: 0px 8px hsla(154, 59%, 51%, 0.9);
-    width: 100%;
-    padding: 1rem;
 }
 
-#TOS-link-text {
+.TOS-link-text {
     font-size: 0.7rem;
     text-align: center;
-    /* width: 80%; */
-    /* margin: 8px auto 15px auto; */
-    margin-top: 1rem;
+    width: 80%;
+    margin: 8px auto 15px auto;
     color: hsl(246, 25%, 77%);
     line-height: 20px;
 }
 
-#TOS-link-text a {
+.TOS-link-text a {
  font-weight: bold;
  color: hsl(0, 100%, 74%);
  text-decoration: none;
@@ -130,10 +120,8 @@ input[type=email] {
 
     main {
         display: flex;
-       /* background-image: url('images/bg-intro-desktop.png');
-        justify-content: space-around; */
-        gap: 2rem;
-        align-items: center;
+        background-image: url('images/bg-intro-desktop.png');
+        justify-content: space-around;
     }
 
     .right-side-desktop-container {
@@ -141,33 +129,34 @@ input[type=email] {
     }
 
     .info-text {
-        margin-left: 0;
+        margin: 135px 0 0 230px;
+        padding-left: 10px;
+        text-align:left;
     }
 
     .info-text h1 {
         font-size: 2.5rem;
-       /* width: 500px; */
+        width: 500px;
     }
 
     .info-text p {
-      /*  width: 550px; */
+        width: 550px;
     }
-    /*
+
     .CTA-banner {
         width: 475px;
         height: 45px;
     }
-    */
 
     .signup-section-wrapper {
-     /*   width: 475px; */
+        width: 475px;
     }
 
     input {
-      /*  width: 430px; */
+        width: 430px;
     }
 
-    #TOS-link-text {
-      /*  margin: 10px auto 30px auto; */
+    .TOS-link-text {
+        margin: 10px auto 30px auto;
     }
 }
