@@ -93,6 +93,14 @@ input {
     padding: 1rem;
 }
 
+.none {
+    display: none;
+}
+
+.incorrect {
+    border: 3px solid pink;
+}
+
 /* adds padding-left to the placeholder text within the input types text, password & email */
 input[type=text],
 input[type=password],
