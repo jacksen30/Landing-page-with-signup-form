@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,45 +30,45 @@
         <p><strong class="CTA-text-bold">Try it free 7 days</strong> then $20/mo. thereafter</p>
       </div>
       <div class="signup-section-wrapper">
-        <div class="signup-form">
-          <form id="form">
+        <form id="form">
 
-            <div id="fname">
-              <label for="fname"></label>
-              <input type="text" name="fname" placeholder="First Name" value="">
-              <p class="none error-message"><small>First name cannot be empty</small></p>
-            </div>
+          <div id="fname" class="input-control">
+            <label for="fname"></label>
+            <input type="text" name="fname" placeholder="First Name" value="">
+            <p class="none error-message"><small>First name cannot be empty</small></p>
+          </div>
 
-            <div id="lname">
-              <label for="lname"></label>
-              <input type="text" name="lname" placeholder="Last Name">
-              <p class="none error-message"><small>Last name cannot be empty</small></p>
-            </div>
+          <div id="lname" class="input-control">
+            <label for="lname"></label>
+            <input type="text" name="lname" placeholder="Last Name">
+            <p class="none error-message"><small>Last name cannot be empty</small></p>
+          </div>
 
-            <div id="email">
-              <label for="email"></label>
-              <input type="text" name="email" placeholder="Email Address" value="">
-              <p class="none error-message"><small>Looks like this is not an email</small></p>
-            </div>
-            
+          <div id="email" class="input-control">
+            <label for="email"></label>
+            <input type="text" name="email" placeholder="Email Address" value="">
+            <p class="none error-message"><small>Looks like this is not an email</small></p>
+          </div>
+          
 
-          <div id="password">
-            <label for="password"></label>
-            <input type="password" name="password" placeholder="Password" value="">
-            <p class="none error-message"><small>Password cannot be empty</small></p>
-          </div>  
-            
-            
-            
-            <button class="submit-btn" type="submit" onclick="validate()">Claim your free trial</button>
-            <p id="TOS-link-text">
-              By clicking the button, you are agreeing to our <a href="#" aria-describedby="TOS-link-text">Terms and Services</a>
-            </p>
-          </form>
-        </div>
-      </div>
+        <div id="password" class="input-control">
+          <label for="password"></label>
+          <input type="password" name="password" placeholder="Password" value="">
+          <p class="none error-message"><small>Password cannot be empty</small></p>
+        </div>  
+          
+          
+          
+          <button class="submit-btn" type="submit" onclick="validate()">Claim your free trial</button>
+          <p id="TOS-link-text">
+            By clicking the button, you are agreeing to our <a href="#" aria-describedby="TOS-link-text">Terms and Services</a>
+          </p>
+        </form>
     </div>
-  
-  </main>
+  </div>
+
+</main>
 </body>
 </html>
+
+            
