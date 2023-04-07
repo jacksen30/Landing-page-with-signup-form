@@ -15,8 +15,6 @@ body {
 }
 
 main {
-   /* background-image: url('images/bg-intro-mobile.png');
-    background-repeat: repeat; */
     max-width: 70rem;
     margin: 1rem;  /* This is what is giving the whole contents of the page margin, and making contents not be width of the screen */
 }
@@ -43,8 +41,6 @@ main {
 
 
 .CTA-banner {
-  /*  width: 320px; */
-  /*  height: 75px; */
     background-color: hsl(248, 32%, 49%);
     border-radius: 10px;
     overflow: hidden;
@@ -60,10 +56,8 @@ main {
 
 .signup-section-wrapper {
     border-radius: 15px;
-   /* border: 1px solid green; */
     background-color: white;
     margin: 0 auto 0 auto;
-   /* width: 320px; */
     overflow: hidden;
 }
 
@@ -75,7 +69,6 @@ main {
 
 form {
     border-radius: 20px;
-   /* margin: 15px 25px 0px 25px; */
     color: grey;
     padding: 2rem;
 }
@@ -85,12 +78,18 @@ input {
     border-radius: 5px;
     color: hsl(249, 10%, 26%);
     margin: 10px auto 10px auto; /* auto margins not working ?? */
-    /* width: 280px; */
-    /* height: 40px; */
     font-size: 18.5px;
     font-weight: bold;
     width: 100%;
     padding: 1rem;
+}
+
+#fname{
+    border: 1px solid green; /* To try figure out why width of inputs is changing when nested in a div*/
+}
+
+#lname{
+    border: 1px solid yellow; /* To try figure out why width of inputs is changing when nested in a div*/
 }
 
 .none {
@@ -98,14 +97,14 @@ input {
 }
 
 .incorrect {
-    border: 3px solid pink;
+    border: 3px solid hsl(0, 100%, 74%);
+    background: url(../image-assets/icon-error.svg) no-repeat 95%;
+   /* padding-left: 15px; */
 }
 
-/* adds padding-left to the placeholder text within the input types text, password & email */
-input[type=text],
-input[type=password],
-input[type=email] {
-    /* padding-left: 5%; */
+.error-message {
+    text-align: end;
+    color: hsl(0, 100%, 74%);
 }
 
 .submit-btn {
@@ -121,8 +120,6 @@ input[type=email] {
 #TOS-link-text {
     font-size: 0.7rem;
     text-align: center;
-    /* width: 80%; */
-    /* margin: 8px auto 15px auto; */
     margin-top: 1rem;
     color: hsl(246, 25%, 77%);
     line-height: 20px;
@@ -137,10 +134,10 @@ input[type=email] {
 
 @media screen and (min-width: 1024px) {
 
+    /* still need to add background img for desktop here intp body tag */
+
     main {
         display: flex;
-       /* background-image: url('images/bg-intro-desktop.png');
-        justify-content: space-around; */
         gap: 4rem;
         align-items: center;
     }
@@ -162,23 +159,5 @@ input[type=email] {
 
     .info-text p {
         margin: 0px 0px 40px 0px;
-    }
-    /*
-    .CTA-banner {
-        width: 475px;
-        height: 45px;
-    }
-    */
-
-    .signup-section-wrapper {
-     /*   width: 475px; */
-    }
-
-    input {
-      /*  width: 430px; */
-    }
-
-    #TOS-link-text {
-      /*  margin: 10px auto 30px auto; */
     }
 }

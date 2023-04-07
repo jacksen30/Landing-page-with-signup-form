@@ -35,20 +35,29 @@
             <div id="fname">
               <label for="fname"></label>
               <input type="text" name="fname" placeholder="First Name" value="">
-              <p class="none">First name cannot be empty</p>
+              <p class="none error-message"><small>First name cannot be empty</small></p>
             </div>
 
             <div id="lname">
               <label for="lname"></label>
               <input type="text" name="lname" placeholder="Last Name">
-              <p class="none">Last name cannot be empty</p>
+              <p class="none error-message"><small>Last name cannot be empty</small></p>
             </div>
 
-            <label for="email"></label>
-            <input type="text" id="email" name="email" placeholder="Email Address">
+            <div id="email">
+              <label for="email"></label>
+              <input type="text" name="email" placeholder="Email Address" value="">
+              <p class="none error-message"><small>Looks like this is not an email</small></p>
+            </div>
+            
 
+          <div id="password">
             <label for="password"></label>
-            <input type="password" id="password" name="password" placeholder="Password">
+            <input type="password" name="password" placeholder="Password" value="">
+            <p class="none error-message"><small>Password cannot be empty</small></p>
+          </div>  
+            
+            
             
             <button class="submit-btn" type="submit" onclick="validate()">Claim your free trial</button>
             <p id="TOS-link-text">
