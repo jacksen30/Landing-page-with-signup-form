@@ -30,11 +30,11 @@
         <p><strong class="CTA-text-bold">Try it free 7 days</strong> then $20/mo. thereafter</p>
       </div>
       <div class="signup-section-wrapper">
-        <form id="form">
+        <form id="form" novalidate>
 
           <div id="fname" class="input-control">
             <label for="fname"></label>
-            <input type="text" name="fname" placeholder="First Name" value="">
+            <input type="text" name="fname" placeholder="First Name" value="" autofocus>
             <p class="none error-message"><small>First name cannot be empty</small></p>
           </div>
 
@@ -46,7 +46,7 @@
 
           <div id="email" class="input-control">
             <label for="email"></label>
-            <input type="text" name="email" placeholder="Email Address" value="">
+            <input type="email" name="email" placeholder="Email Address" value="">
             <p class="none error-message"><small>Looks like this is not an email</small></p>
           </div>
           

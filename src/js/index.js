@@ -27,7 +27,7 @@ function validateEmail(item){
 
     if(item[1].value.length === 0 || !emailValid){
         item[1].classList.add('incorrect');
-        item[1].placeholder="email@example/com";
+        item[1].placeholder="email@example.com";
         item[1].value="";
         item[2].classList.remove('none');
     } else {
