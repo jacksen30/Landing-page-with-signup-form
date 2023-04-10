@@ -12,7 +12,7 @@ body {
 
 main {
     max-width: 70rem;
-    margin: 1rem;  /* This is what is giving the whole contents of the page margin, and making contents not be width of the screen */
+    margin: 1rem;  /* This is what is giving the whole contents of the page margin, and making contents not be the width of the screen */
 }
 
 .info-text {
@@ -34,7 +34,6 @@ main {
 .submit-btn {
     color: white;
 }
-
 
 .CTA-banner {
     background-color: hsl(248, 32%, 49%);
@@ -73,18 +72,9 @@ input {
     width: 100%;
     padding: 1rem;
 }
-/*
-.input-control {
-    margin-top: 0.2rem;
-}
-*/
 
 #fname{
    /* border: 1px solid green; */       /* Use to see & test margin and padding ect*/
-}
-
-#lname{
-   /* border: 1px solid yellow; */       /* Use to see & test margin and padding ect*/
 }
 
 .none {
@@ -112,7 +102,7 @@ input {
     box-shadow: 0px 8px hsla(154, 59%, 51%, 0.9);
     width: 100%;
     padding: 1rem;
-    margin-top: 10px; /* update to rem */
+    margin-top: 0.7rem;
 }
 
 #TOS-link-text {
@@ -120,7 +110,7 @@ input {
     text-align: center;
     margin-top: 1rem;
     color: hsl(246, 25%, 77%);
-    line-height: 20px;
+    line-height: 1.8;
 }
 
 #TOS-link-text a {
@@ -129,11 +119,23 @@ input {
  text-decoration: none;
 }
 
+/* sr-only is for screen reader use only - 
+I have used it to visually hide the label text for my form input fields. It will still be read by screen reader technology. */
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    }
 
 @media screen and (min-width: 1024px) {
 
-    /* still need to add background img for desktop here intp body tag */
-
+    body {
+        background-image: url('../image-assets/bg-intro-desktop.png');
+    }
+    
     main {
         display: flex;
         gap: 4rem;
