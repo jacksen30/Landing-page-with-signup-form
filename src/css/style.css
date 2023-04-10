@@ -73,9 +73,11 @@ input {
     padding: 1rem;
 }
 
+/* Use to see & test margin and padding ect
 #fname{
-   /* border: 1px solid green; */       /* Use to see & test margin and padding ect*/
+   border: 1px solid green;     
 }
+*/
 
 .none {
     display: none;
