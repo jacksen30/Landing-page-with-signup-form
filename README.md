@@ -28,7 +28,7 @@ This was my first time implementing form validation on the client-side with Java
 ![Desktop Screenshot](./src/image-assets/desktop-view.JPG)
 
 ##### Desktop View - Input Validation Fail State - Below
-![Desktop Screenshot](./src/image-assets/desktop-view-error-state.JPG.JPG)
+![Desktop Screenshot](./src/image-assets/desktop-view-error-state.JPG)
 
 ##### Mobile View - Below
 ![Mobile Screenshot](./src/image-assets/mobile-view.JPG)
