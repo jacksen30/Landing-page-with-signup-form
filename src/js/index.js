@@ -1,9 +1,9 @@
 // Selecting these divs by .getElementById to ensure that they are unique and not clasases that may be used on multiple elements 
 const form = document.getElementById('form');
-const fName = document.getElementById('fname').children;
-const lName = document.getElementById('lname').children;
-const email = document.getElementById('email').children;
-const password = document.getElementById('password').children;
+const fName = document.getElementById('fname-wrapper').children;
+const lName = document.getElementById('lname-wrapper').children;
+const email = document.getElementById('email-wrapper').children;
+const password = document.getElementById('password-wrapper').children;
 
 
 
