@@ -48,5 +48,5 @@ This was my first time implementing form validation on the client-side with Java
 
 ## Author
 
-- Website - [Jacksen Nillson](https://www.quotemkr.com)
+- Website - [Jacksen Nillson](https://www.devbyjacksen.com)
 - Frontend Mentor - [@jacksen30](https://www.frontendmentor.io/profile/jacksen30)
